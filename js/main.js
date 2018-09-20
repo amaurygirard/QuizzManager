@@ -59,4 +59,11 @@ jQuery(document).ready(function(){
   });
 
 
+  /* Check if an answer is the right one */
+  function isAnswerCorrect(reponseObject){
+
+    return reponseObject.is_correct;
+
+  }
+
 });
